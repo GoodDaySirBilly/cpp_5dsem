@@ -1,0 +1,3 @@
+/home/rustam/Desktop/cpp_5dsem/build/CMakeFiles/main.dir
+/home/rustam/Desktop/cpp_5dsem/build/CMakeFiles/edit_cache.dir
+/home/rustam/Desktop/cpp_5dsem/build/CMakeFiles/rebuild_cache.dir
