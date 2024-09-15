@@ -79,6 +79,7 @@ Car::~Car(){
 }
 
 std::ostream &Car::operator<<(std::ostream &os){
+    os<<"CAR                "<<"\n";
     os<<"Make:              "<<make<<"\n";
     os<<"Model:             "<<model<<"\n";
     os<<"Engine_size:       "<<engineSize<<"\n";
