@@ -12,17 +12,18 @@ public:
     explicit Garage();
     explicit Garage(int);
     Garage(const Garage&);
-    ~Garage();
+    virtual ~Garage();
 
-    void print();
+    
     void add(Transport*);
     void remove(int);
-    int pop(int index = 0);
     bool isEmpty() const;
     int length();
     void clear();
-    
 
+    Transport* operator[](unsigned index);
+    
+    std::ostream& operator<<(std::ostream&);
 
 
 

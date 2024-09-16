@@ -5,7 +5,10 @@
 
 class Transport{
 public:
-    virtual void info(std::ostream &os) = 0;
+    virtual std::ostream& operator<<(std::ostream &os) = 0;
+    virtual std::istream& operator>>(std::istream &is) = 0;
+    Transport() = default;
+    virtual ~Transport() = default;
 };
 
 

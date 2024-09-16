@@ -6,4 +6,6 @@ project(cmakeproject)
 add_executable(main
 src/main.cpp
 src/Car.cpp
+src/Garage.cpp
+src/Transport.h
     )

@@ -103,7 +103,3 @@ std::istream &Car::operator>>(std::istream &is){
     setTransmissionType(s5);
     return is;
 }
-
-void Car::info(std::ostream &os){
-    this->operator<<(os);
-}

@@ -10,5 +10,11 @@
   "command": "/usr/bin/g++ -g -o CMakeFiles/main.dir/src/Car.cpp.o -c /home/rustam/Desktop/cpp_5dsem/src/Car.cpp",
   "file": "/home/rustam/Desktop/cpp_5dsem/src/Car.cpp",
   "output": "CMakeFiles/main.dir/src/Car.cpp.o"
+},
+{
+  "directory": "/home/rustam/Desktop/cpp_5dsem/build",
+  "command": "/usr/bin/g++ -g -o CMakeFiles/main.dir/src/Garage.cpp.o -c /home/rustam/Desktop/cpp_5dsem/src/Garage.cpp",
+  "file": "/home/rustam/Desktop/cpp_5dsem/src/Garage.cpp",
+  "output": "CMakeFiles/main.dir/src/Garage.cpp.o"
 }
 ]

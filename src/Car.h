@@ -24,9 +24,9 @@ public:
     Car(const Car& another);
     virtual ~Car();
 
-    std::ostream &operator<<(std::ostream& os);
-    std::istream &operator>>(std::istream& is);
-    void info(std::ostream &os) override;
+    std::ostream &operator<<(std::ostream& os) override;
+    std::istream &operator>>(std::istream& is) override;
+    
 };
 
 #endif

@@ -1,7 +1,20 @@
 #include "Car.h"
+#include "Garage.h"
 #include <fstream>
 
 int main(){
+    Garage garage;
+    
+    garage.add(new Car{"a1","b","c","d","e"});
+    garage.add(new Car{"a2","b","c","d","e"});
+    garage.add(new Car{"a3","b","c","d","e"});
+    garage.operator<<(std::cout);
+   
+
+    return 0;
+}
+
+/*
     std::ifstream is;
     std::ofstream os;
 
@@ -18,5 +31,4 @@ int main(){
     car2.operator>>(is);
 
     is.close();
-    return 0;
-}
+*/
