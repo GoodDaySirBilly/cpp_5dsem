@@ -30,7 +30,7 @@ Garage::Garage(const Garage& another)
 Garage::~Garage()
 {
     if(!isEmpty()) for(unsigned i=0;i<size;i++) delete arr[i];
-    delete[] arr;
+    if( real_size != 0) delete[] arr;
 }
 
 void Garage::add(Transport *a)
@@ -75,8 +75,10 @@ int Garage::length(){
 }
 
 void Garage::clear(){
+    if(isEmpty()) return;
     for(int i = 0; i< size;i++) delete arr[i];
     delete[] arr;
+    size = real_size = 0;
 }
 
 Transport *Garage::operator[](unsigned index)
@@ -86,8 +88,33 @@ Transport *Garage::operator[](unsigned index)
 }
 
 std::ostream &Garage::operator<<(std::ostream& os)
-{
+{   
+    os<<size<<"\n";
+    if(isEmpty()) os<<"Garage_is_empty!\n";
     for(int i = 0; i<size;i++) arr[i]->operator<<(os);
     return os;
 }
 
+std::istream &Garage::operator>>(std::istream& is)
+{   
+    int inp;
+    std::string type;
+    is>>inp;
+    for(int i=0;i<inp;i++){
+        is>>type;
+        if(type == "Car"){
+            Transport* element = new Car;
+            element->operator>>(is);
+            add(element);
+        } else if(type == "Bike"){
+            Transport* element = new Bike;
+            element->operator>>(is);
+            add(element);
+        } else{
+            Transport* element = new Bus;
+            element->operator>>(is);
+            add(element);
+        }
+    }
+    return is;
+}

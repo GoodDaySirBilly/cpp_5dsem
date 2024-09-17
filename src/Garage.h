@@ -1,7 +1,10 @@
 #ifndef GARAGE_H_
 #define GARAGE_H_
 
-#include "Transport.h"
+#include "Car.h"
+#include "Bus.h"
+#include "Bike.h"
+
 
 class Garage{
     
@@ -23,6 +26,7 @@ public:
 
     Transport* operator[](unsigned index);
     std::ostream& operator<<(std::ostream&);
+    std::istream& operator>>(std::istream&);
 
 };
 

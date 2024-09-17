@@ -5,7 +5,7 @@
 
 class Bus : public Transport{
 private:
-    std::string make, model, sit_places, all_places, final_point;
+    std::string make, model, sitPlaces, allPlaces, finalPoint;
 public:
     std::string getMake();
     std::string getModel();

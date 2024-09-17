@@ -85,7 +85,7 @@ Car::~Car(){
 }
 
 std::ostream &Car::operator<<(std::ostream &os){
-    os<<"CAR                "<<"\n";
+    os<<"Car                "<<"\n";
     os<<"Make:              "<<make<<"\n";
     os<<"Model:             "<<model<<"\n";
     os<<"Engine_size:       "<<engineSize<<"\n";
@@ -95,8 +95,7 @@ std::ostream &Car::operator<<(std::ostream &os){
 }
 
 std::istream &Car::operator>>(std::istream &is){
-    std::string auto_type,s1,s2,s3,s4,s5,buf;
-    is>>auto_type;
+    std::string s1,s2,s3,s4,s5,buf;
     is>>buf>>s1;
     is>>buf>>s2;
     is>>buf>>s3;

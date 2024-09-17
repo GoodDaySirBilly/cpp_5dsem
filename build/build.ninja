@@ -61,6 +61,18 @@ build CMakeFiles/main.dir/src/Car.cpp.o: CXX_COMPILER__main_unscanned_Debug /hom
   OBJECT_DIR = CMakeFiles/main.dir
   OBJECT_FILE_DIR = CMakeFiles/main.dir/src
 
+build CMakeFiles/main.dir/src/Bus.cpp.o: CXX_COMPILER__main_unscanned_Debug /home/rustam/Desktop/cpp_5dsem/src/Bus.cpp || cmake_object_order_depends_target_main
+  DEP_FILE = CMakeFiles/main.dir/src/Bus.cpp.o.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/main.dir
+  OBJECT_FILE_DIR = CMakeFiles/main.dir/src
+
+build CMakeFiles/main.dir/src/Bike.cpp.o: CXX_COMPILER__main_unscanned_Debug /home/rustam/Desktop/cpp_5dsem/src/Bike.cpp || cmake_object_order_depends_target_main
+  DEP_FILE = CMakeFiles/main.dir/src/Bike.cpp.o.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/main.dir
+  OBJECT_FILE_DIR = CMakeFiles/main.dir/src
+
 build CMakeFiles/main.dir/src/Garage.cpp.o: CXX_COMPILER__main_unscanned_Debug /home/rustam/Desktop/cpp_5dsem/src/Garage.cpp || cmake_object_order_depends_target_main
   DEP_FILE = CMakeFiles/main.dir/src/Garage.cpp.o.d
   FLAGS = -g
@@ -75,7 +87,7 @@ build CMakeFiles/main.dir/src/Garage.cpp.o: CXX_COMPILER__main_unscanned_Debug /
 #############################################
 # Link the executable main
 
-build main: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/src/main.cpp.o CMakeFiles/main.dir/src/Car.cpp.o CMakeFiles/main.dir/src/Garage.cpp.o
+build main: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/src/main.cpp.o CMakeFiles/main.dir/src/Car.cpp.o CMakeFiles/main.dir/src/Bus.cpp.o CMakeFiles/main.dir/src/Bike.cpp.o CMakeFiles/main.dir/src/Garage.cpp.o
   FLAGS = -g
   LINK_FLAGS = -rdynamic
   OBJECT_DIR = CMakeFiles/main.dir
