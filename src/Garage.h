@@ -7,26 +7,22 @@ class Garage{
     
 private:
     Transport** arr;
-    int size, real_size;
+    unsigned size, real_size;
 public:
     explicit Garage();
-    explicit Garage(int);
+    explicit Garage(unsigned);
     Garage(const Garage&);
     virtual ~Garage();
 
     
     void add(Transport*);
-    void remove(int);
+    void remove(unsigned);
     bool isEmpty() const;
     int length();
     void clear();
 
     Transport* operator[](unsigned index);
-    
     std::ostream& operator<<(std::ostream&);
-
-
-
 
 };
 

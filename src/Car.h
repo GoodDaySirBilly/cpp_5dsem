@@ -20,6 +20,7 @@ public:
     void setTransmissionType(std::string);
 
     explicit Car(std::string,std::string,std::string,std::string,std::string);
+    explicit Car(std::string);
     explicit Car();
     Car(const Car& another);
     virtual ~Car();

@@ -53,6 +53,12 @@ Car::Car(std::string make,std::string model,
     
 }
 
+Car::Car(std::string word){
+    make=model=engineSize=color=transmissionType=word;
+    std::cout<<"Crated car by one-word constructor:\n";
+    this->operator<<(std::cout);
+}
+
 Car::Car(){   
     this->make = "None";
     this->model = "None";
