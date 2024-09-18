@@ -1,6 +1,11 @@
 #ifndef MAIN_H_
 #define MAIN_H_
 
+#ifdef WIN32
+    #define CLEAR "cls"
+#else
+    #define CLEAR "clear"
+#endif
 #include "Garage.h"
 #include <fstream>
 

@@ -1,2 +1,109 @@
-0
-Garage_is_empty!
+18
+Car                
+Make:              BMW
+Model:             X6
+Engine_size:       15sm
+Color:             Black
+Transmission_type: auto
+Bike                
+Make:              yamaha
+Model:             hz
+Engine_size:       16sm
+Power:             -3
+Transmission_type: water
+Car                
+Make:              BMW
+Model:             X5
+Engine_size:       15sm
+Color:             White
+Transmission_type: auto
+Car                
+Make:              BMW
+Model:             X6
+Engine_size:       15sm
+Color:             Black
+Transmission_type: auto
+Bike                
+Make:              yamaha
+Model:             hz
+Engine_size:       16sm
+Power:             -3
+Transmission_type: water
+Car                
+Make:              BMW
+Model:             X5
+Engine_size:       15sm
+Color:             White
+Transmission_type: auto
+Car                
+Make:              BMW
+Model:             X6
+Engine_size:       15sm
+Color:             Black
+Transmission_type: auto
+Bike                
+Make:              yamaha
+Model:             hz
+Engine_size:       16sm
+Power:             -3
+Transmission_type: water
+Car                
+Make:              BMW
+Model:             X5
+Engine_size:       15sm
+Color:             White
+Transmission_type: auto
+Car                
+Make:              BMW
+Model:             X6
+Engine_size:       15sm
+Color:             Black
+Transmission_type: auto
+Bike                
+Make:              yamaha
+Model:             hz
+Engine_size:       16sm
+Power:             -3
+Transmission_type: water
+Car                
+Make:              BMW
+Model:             X5
+Engine_size:       15sm
+Color:             White
+Transmission_type: auto
+Car                
+Make:              BMW
+Model:             X6
+Engine_size:       15sm
+Color:             Black
+Transmission_type: auto
+Bike                
+Make:              yamaha
+Model:             hz
+Engine_size:       16sm
+Power:             -3
+Transmission_type: water
+Car                
+Make:              BMW
+Model:             X5
+Engine_size:       15sm
+Color:             White
+Transmission_type: auto
+Car                
+Make:              BMW
+Model:             X6
+Engine_size:       15sm
+Color:             Black
+Transmission_type: auto
+Bike                
+Make:              yamaha
+Model:             hz
+Engine_size:       16sm
+Power:             -3
+Transmission_type: water
+Car                
+Make:              BMW
+Model:             X5
+Engine_size:       15sm
+Color:             White
+Transmission_type: auto

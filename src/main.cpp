@@ -6,7 +6,7 @@ int main(){
     string fileName = "../data.txt";
     Garage garage;
     
-    system("clear");
+    system(CLEAR);
     int inp;
     do{
         cout<<"1. Print garage\n";
@@ -18,7 +18,7 @@ int main(){
         cout<<"7. End\n";
 
         cin>>inp;
-        system("clear");
+        system(CLEAR);
 
         switch(inp){
             case PRINT_GARAGE:
@@ -56,7 +56,7 @@ int main(){
                         
                         string buf;
                         cin>>inpda;
-                        system("clear");
+                        system(CLEAR);
 
                         switch(inpda){
                             case CHANGE_1:

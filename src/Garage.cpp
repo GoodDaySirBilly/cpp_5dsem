@@ -78,7 +78,9 @@ void Garage::clear(){
     if(isEmpty()) return;
     for(int i = 0; i< size;i++) delete arr[i];
     delete[] arr;
-    size = real_size = 0;
+    size = 0;
+    real_size = 10;
+    arr = new Transport*[10];
 }
 
 Transport *Garage::operator[](unsigned index)

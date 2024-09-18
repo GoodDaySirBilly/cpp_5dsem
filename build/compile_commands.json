@@ -1,32 +1,32 @@
 [
 {
-  "directory": "/home/rustam/Desktop/cpp_5dsem/build",
-  "command": "/usr/bin/g++ -g -o CMakeFiles/main.dir/src/main.cpp.o -c /home/rustam/Desktop/cpp_5dsem/src/main.cpp",
-  "file": "/home/rustam/Desktop/cpp_5dsem/src/main.cpp",
-  "output": "CMakeFiles/main.dir/src/main.cpp.o"
+  "directory": "C:/Users/user/Desktop/5dSem/Prog/cpp_5dsem/build",
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\main.dir\\src\\main.cpp.obj -c C:\\Users\\user\\Desktop\\5dSem\\Prog\\cpp_5dsem\\src\\main.cpp",
+  "file": "C:/Users/user/Desktop/5dSem/Prog/cpp_5dsem/src/main.cpp",
+  "output": "CMakeFiles/main.dir/src/main.cpp.obj"
 },
 {
-  "directory": "/home/rustam/Desktop/cpp_5dsem/build",
-  "command": "/usr/bin/g++ -g -o CMakeFiles/main.dir/src/Car.cpp.o -c /home/rustam/Desktop/cpp_5dsem/src/Car.cpp",
-  "file": "/home/rustam/Desktop/cpp_5dsem/src/Car.cpp",
-  "output": "CMakeFiles/main.dir/src/Car.cpp.o"
+  "directory": "C:/Users/user/Desktop/5dSem/Prog/cpp_5dsem/build",
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\main.dir\\src\\Car.cpp.obj -c C:\\Users\\user\\Desktop\\5dSem\\Prog\\cpp_5dsem\\src\\Car.cpp",
+  "file": "C:/Users/user/Desktop/5dSem/Prog/cpp_5dsem/src/Car.cpp",
+  "output": "CMakeFiles/main.dir/src/Car.cpp.obj"
 },
 {
-  "directory": "/home/rustam/Desktop/cpp_5dsem/build",
-  "command": "/usr/bin/g++ -g -o CMakeFiles/main.dir/src/Bus.cpp.o -c /home/rustam/Desktop/cpp_5dsem/src/Bus.cpp",
-  "file": "/home/rustam/Desktop/cpp_5dsem/src/Bus.cpp",
-  "output": "CMakeFiles/main.dir/src/Bus.cpp.o"
+  "directory": "C:/Users/user/Desktop/5dSem/Prog/cpp_5dsem/build",
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\main.dir\\src\\Bus.cpp.obj -c C:\\Users\\user\\Desktop\\5dSem\\Prog\\cpp_5dsem\\src\\Bus.cpp",
+  "file": "C:/Users/user/Desktop/5dSem/Prog/cpp_5dsem/src/Bus.cpp",
+  "output": "CMakeFiles/main.dir/src/Bus.cpp.obj"
 },
 {
-  "directory": "/home/rustam/Desktop/cpp_5dsem/build",
-  "command": "/usr/bin/g++ -g -o CMakeFiles/main.dir/src/Bike.cpp.o -c /home/rustam/Desktop/cpp_5dsem/src/Bike.cpp",
-  "file": "/home/rustam/Desktop/cpp_5dsem/src/Bike.cpp",
-  "output": "CMakeFiles/main.dir/src/Bike.cpp.o"
+  "directory": "C:/Users/user/Desktop/5dSem/Prog/cpp_5dsem/build",
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\main.dir\\src\\Bike.cpp.obj -c C:\\Users\\user\\Desktop\\5dSem\\Prog\\cpp_5dsem\\src\\Bike.cpp",
+  "file": "C:/Users/user/Desktop/5dSem/Prog/cpp_5dsem/src/Bike.cpp",
+  "output": "CMakeFiles/main.dir/src/Bike.cpp.obj"
 },
 {
-  "directory": "/home/rustam/Desktop/cpp_5dsem/build",
-  "command": "/usr/bin/g++ -g -o CMakeFiles/main.dir/src/Garage.cpp.o -c /home/rustam/Desktop/cpp_5dsem/src/Garage.cpp",
-  "file": "/home/rustam/Desktop/cpp_5dsem/src/Garage.cpp",
-  "output": "CMakeFiles/main.dir/src/Garage.cpp.o"
+  "directory": "C:/Users/user/Desktop/5dSem/Prog/cpp_5dsem/build",
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\main.dir\\src\\Garage.cpp.obj -c C:\\Users\\user\\Desktop\\5dSem\\Prog\\cpp_5dsem\\src\\Garage.cpp",
+  "file": "C:/Users/user/Desktop/5dSem/Prog/cpp_5dsem/src/Garage.cpp",
+  "output": "CMakeFiles/main.dir/src/Garage.cpp.obj"
 }
 ]
